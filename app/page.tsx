@@ -1,12 +1,12 @@
 import React from 'react';
-import HeroSection from '@/components/HeroSection';
-import StorySection from '@/components/StorySection';
-import WhyNormas from '@/components/WhyNormas';
-import MenuSection from '@/components/MenuSection';
-import ReviewsSection from '@/components/ReviewSection';
-import HowToOrderSection from '@/components/HowToOrderSection';
-import Footer from '@/components/Footer';
-import { ToastProvider, Toast } from '@/components/ui/toaster/toast';
+import HeroSection from '@/components/pages/HeroSection';
+import StorySection from '@/components/pages/StorySection';
+import WhyNormas from '@/components/pages/WhyNormas';
+import MenuSection from '@/components/pages/MenuSection';
+import ReviewsSection from '@/components/pages/ReviewSection';
+import HowToOrderSection from '@/components/pages/HowToOrderSection';
+import Footer from '@/components/pages/Footer';
+import { ToastProvider, Toast } from '@/components/ui/Toaster/toast';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {

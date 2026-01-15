@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
-import FeatureCard from '@/components/FeatureCard';
+import FeatureCard from '@/components/pages/FeatureCard';
 import { FEATURECARD } from './constant';
 
 const WhyNormas: React.FC = () => {

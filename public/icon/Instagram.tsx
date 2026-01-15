@@ -1,0 +1,18 @@
+import * as React from 'react';
+const InstagramIcon = ({ width = 19, height = 19, fill = 'none', ...rest }) => (
+  <svg
+    xmlns='http://www.w3.org/2000/svg'
+    width={width}
+    height={height}
+    fill={fill}
+    {...rest}
+  >
+    <path
+      fill='#000'
+      fillRule='evenodd'
+      d='M13.934.041h-8a5 5 0 0 0-5 5v8a5 5 0 0 0 5 5h8a5 5 0 0 0 5-5v-8a5 5 0 0 0-5-5Zm3.25 13a3.26 3.26 0 0 1-3.25 3.25h-8a3.26 3.26 0 0 1-3.25-3.25v-8a3.26 3.26 0 0 1 3.25-3.25h8a3.26 3.26 0 0 1 3.25 3.25v8Zm-2.5-7.75a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm-4.75-.75a4.5 4.5 0 1 0 4.5 4.5 4.49 4.49 0 0 0-4.5-4.5Zm-2.75 4.5a2.75 2.75 0 1 0 5.5 0 2.75 2.75 0 0 0-5.5 0Z'
+      clipRule='evenodd'
+    />
+  </svg>
+);
+export default InstagramIcon;
