@@ -15,7 +15,7 @@ const HeroSection = () => {
       {/* Background Image with Overlay */}
       <div className='absolute inset-0 z-0'>
         <img
-          src='https://images.unsplash.com/photo-1566866355075-8b384b6eb9fe'
+          src='/backgrounda.jpg'
           alt="Norma's Special Pancit Lug-log"
           className='w-full h-full object-cover'
           loading='eager'
