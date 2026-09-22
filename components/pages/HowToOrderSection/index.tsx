@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import OrderOption from '@/components/pages/OrderOption';
 import { Phone, ShoppingBag, Truck, MapPin, Clock } from 'lucide-react';
-import { toast } from '@/components/ui/Toaster/use-toast';
+import { toast } from '../../../components/ui/Toaster/use-toast';
 
 const HowToOrderSection = () => {
   const phoneNumber = '+63 912 345 6789';
