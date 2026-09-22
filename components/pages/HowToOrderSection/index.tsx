@@ -1,69 +1,33 @@
 'use client';
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import OrderOption from '@/components/pages/OrderOption';
 import { Phone, ShoppingBag, Truck, MapPin, Clock } from 'lucide-react';
-import { toast } from '../../../components/ui/Toaster/use-toast';
 
 const HowToOrderSection = () => {
   const phoneNumber = '+63 912 345 6789';
   const address = '123 Food Street, Manila, Philippines';
-
-  const handleCall = () => {
-    window.location.href = `tel:${phoneNumber}`;
-  };
-
-  const handleOnlineOrder = () => {
-    toast({
-      title: 'Online Ordering',
-      description:
-        '🚧 Online ordering will be available soon! Please call us to place your order. 📞',
-      duration: 5000,
-    });
-  };
-
-  const handleDelivery = () => {
-    toast({
-      title: 'Delivery Service',
-      description:
-        '🚧 Delivery booking feature coming soon! Call us to arrange delivery. 🚚',
-      duration: 5000,
-    });
-  };
-
-  const handleTakeout = () => {
-    toast({
-      title: 'Takeout Orders',
-      description:
-        "📞 Call us to place your takeout order and we'll have it ready for pickup!",
-      duration: 5000,
-    });
-  };
 
   const orderOptions = [
     {
       icon: <Phone />,
       title: 'Call Us',
       description: 'Quick and easy phone orders',
-      action: handleCall,
     },
     {
       icon: <ShoppingBag />,
       title: 'Online Order',
       description: 'Order through our website',
-      action: handleOnlineOrder,
     },
     {
       icon: <Truck />,
       title: 'Delivery',
       description: 'We deliver to your doorstep',
-      action: handleDelivery,
     },
     {
       icon: <MapPin />,
       title: 'Takeout',
       description: 'Pick up at our location',
-      action: handleTakeout,
     },
   ];
 
@@ -96,7 +60,6 @@ const HowToOrderSection = () => {
               icon={option.icon}
               title={option.title}
               description={option.description}
-              action={option.action}
               delay={index * 0.1}
             />
           ))}
