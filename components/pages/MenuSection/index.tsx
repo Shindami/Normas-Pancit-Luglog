@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import MenuItem from '@/components/pages/MenuItem';
 import { MENU_ITEMS } from './constant';
-import { Carousel } from '@/components/ui/Carousel';
+import { Carousel } from '@/components/ui/carousel';
 
 const MenuSection = () => {
   return (

@@ -6,7 +6,7 @@ import MenuSection from '@/components/pages/MenuSection';
 import ReviewsSection from '@/components/pages/ReviewSection';
 import HowToOrderSection from '@/components/pages/HowToOrderSection';
 import Footer from '@/components/pages/Footer';
-import { ToastProvider } from '@/components/ui/Toaster/toast';
+import { ToastProvider } from '@/components/ui/toaster/toast';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
